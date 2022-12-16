@@ -10,6 +10,8 @@ certifi==2022.12.7
     # via requests
 charset-normalizer==2.1.1
     # via requests
+cssselect==1.2.0
+    # via -r requirements.in
 idna==3.4
     # via requests
 lxml==4.9.2
