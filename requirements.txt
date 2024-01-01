@@ -14,7 +14,7 @@ cssselect==1.2.0
     # via -r requirements.in
 idna==3.6
     # via requests
-lxml==4.9.4
+lxml==5.0.0
     # via -r requirements.in
 requests==2.31.0
     # via -r requirements.in
