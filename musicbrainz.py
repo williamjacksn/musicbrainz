@@ -1,10 +1,10 @@
+import httpx
 import lxml.html
-import requests
 import types
 
 
-def get_session(username: str, password: str) -> requests.Session:
-    s = requests.session()
+def get_session(username: str, password: str) -> httpx.Client:
+    s = httpx.Client()
 
     # get login page
     login_url = 'https://musicbrainz.org/login'
